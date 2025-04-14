@@ -272,7 +272,6 @@ header .badge{
 /* ------------VISUAL----------- */
 .visual{
   position: relative;
-  background-color: pink;
   background-image: url('../images/visual_bg.png');
   background-position: center;
   background-repeat: no-repeat;
