@@ -1,0 +1,367 @@
+/* 태블릿 버전 서식(~960px) */
+@media screen and (max-width: 960px) {
+  /* COMMON */
+  body{
+    top: 70px;
+  }
+  main{
+    min-width: unset;
+  }
+  .inner{
+    width: unset;
+  }
+  .season .btn, .costa .btn, .pick .btn{
+    font-size: 22px;
+    font-weight: 600;
+    width: 33vw;
+    line-height: 7vw;
+  }
+
+  /* HEADER */
+  header > .inner{
+    height: 70px;
+  }
+  header .logo{
+    height: 70px;
+  }
+  header .logo img{
+    width: 50px;
+    height: 50px;
+  }
+  header .util, header .gnb{
+    display: none;
+  }
+  header .util_tablet{
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    display: block;
+  }
+  header .util_tablet ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  /* -----------메뉴바----------- */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 400;
+  }
+  .overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  header .gnb_tablet{
+    position: absolute;
+    display: block;
+    width: 70%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    color: #fff;
+    z-index: 500;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    overflow: visible;
+  }
+  header .gnb_tablet.show {
+    transform: translateX(0);
+  }
+  header .tablet_search{
+    width: 100%;
+    height: 50px;
+    background: #2d2926;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+  }
+  header .tablet_search input{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 24px;
+    padding-left: 10px;
+  }
+  header .tablet_search a{
+    background: #666;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 24px;
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 20px;
+  }
+  header .tablet_search a:hover{
+    text-decoration: underline;
+  }
+  /* 메뉴 목록 부분 */
+  header .gnb_tablet .tablet_menu{
+    background: #111;
+    height: 100%;
+  }
+  header .gnb_tablet .tablet_menu li{
+    font-size: 28px;
+    line-height: 76px;
+    text-indent: 30px;
+  }
+  header .gnb_tablet .tablet_menu a{
+    display: block;
+  }
+  header .gnb_tablet .tablet_menu a:hover{
+    text-decoration: underline;
+  }
+  header .gnb_tablet .tablet_menu .gnb__name{
+    border-bottom: 1px solid #222;
+    background: #111;
+  }
+  header .gnb_tablet .tablet_menu .gnb__name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  header .gnb_tablet .tablet_menu .material-symbols-outlined{
+    float: right;
+    line-height: unset;
+    font-size: 40px;
+    margin-right: 20px;
+    display: block;
+  }
+  header .gnb_tablet .tablet_menu .sub{
+    height: auto;
+  }
+  header .gnb_tablet .tablet_menu .sub li{
+    font-size: 24px;
+    background: #181818;
+    border-bottom: 1px solid #222;
+  }
+  header .gnb_tablet .tablet_menu .sub li:not(:first-child) a{
+    color: #999;
+    height: 50px;
+    background: #222;
+    border-bottom: none;
+    font-size: 18px;
+    line-height: 50px;
+  }
+  header .gnb_tablet .tablet_menu .sub a{
+    color: #fff;
+  }
+  header .gnb_tablet .sub__name .material-symbols-outlined {
+    opacity: 0.3;
+  }
+  header .gnb_tablet .btn_close{
+    position: fixed;
+    top: 40px;
+    cursor: pointer;
+    left: -60px;
+    display: none;
+  }
+
+  /* ------------VISUAL----------- */
+  .visual{
+    height: 280vw;
+    background-image: url('../images/visual_bg_mo.jpg');
+    background-position: center top;
+  }
+  .visual .title{
+    width: 60%;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .visual .item_01{
+    top: 40%;
+    left: 15%;
+    width: 85%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .visual .item_02{
+    top: 20%;
+    left: 15%;
+    width: 70%;
+    max-width: 100%;
+  }
+  .visual .item_03{
+    z-index: 10;
+    top: 65%;
+    left: 15%;
+    width: 70%;
+    max-width: 100%;
+  }
+  /* ------------NOTICE----------- */
+  .notice .notice_line{
+    height: 80px;
+  }
+  .notice .notice_line .inner_left{
+    width: 50%;
+  }
+  .mySwiper1 a{
+    font-size: 16px;
+  }
+
+
+  /* ------------PROMOTION----------- */
+  .promotion{
+    height: 470px;
+  }
+  .promotion .mySwiper2{
+    width: 600px;
+  }
+  .promotion .mySwiper2 .swiper-slide {
+    width: 600px !important;
+    height: 350px !important;
+  }
+  .mySwiper2 .swiper-button-next{
+    right: -70px;
+  }
+  .mySwiper2 .swiper-button-prev {
+    left: -70px;
+  }
+
+  /* ------------REWARDS----------- */
+  .rewards .inner .rewards_logo img {
+    max-width: 175px;
+    width: 100%;
+  }
+  .rewards .rewards_top h2 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  /* ------------SEASON----------- */
+  .season{
+    background: url("../images/season_bg_mo.jpg") center/cover no-repeat;
+    height: 160vw;
+  }
+  .season .inner > img{
+    position: unset;
+    width: 100%;
+    padding-top: 100px;
+  }
+  .season .inner > div{
+    position: unset;
+    text-align: center;
+  }
+  .season .inner > div img{
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  /* ------------COSTA----------- */
+  .costa{
+    background: url("../images/reserve_costa_bg_mo.jpg") center/cover no-repeat;
+    height: 160vw;
+  }
+  .costa .inner{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .costa .inner > img, .costa .inner > div > img{
+    display: none;
+  }
+  .costa .inner > div{
+    position: static;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10vw;
+  }
+  .costa .inner > div a{
+    margin: 0 auto;
+  }
+
+  /* ------------PICK----------- */
+  .pick{
+    background: url("../images/pick_bg_mo.jpg") no-repeat center top;
+    background-size: cover;
+    height: 200vw;
+  }
+  .pick .pick_txt{
+    width: 70vw;
+    text-align: center;
+    top: calc(135vw - 40px);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .pick .pick_txt img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+  .pick .pick_img{
+    width: 100%;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* ------------MAGAZINE----------- */
+  .magazine{
+    background: url("../images/magazine_bg_mo.jpg") no-repeat top;
+    background-size: 100%;
+    height: 170vw;
+  }
+  .magazine .inner > img, .magazine .inner > div > img{
+    display: none;
+  }
+  .magazine .inner > div {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 141vw;
+    left: 68vw;
+  }
+  .magazine .inner > div a{
+    margin: 0;
+  }
+  /* ------------STORE----------- */
+  .store{
+    background: url("../images/store_bg.jpg");
+    background-size: 100% auto;
+    height: 750px;
+  }
+  .store .inner > img:nth-of-type(1){
+    left: 250px;
+    width: 200px;
+  }
+  .store .inner > img:nth-of-type(2){
+    left: 40px;
+    width: 300px;
+  }
+  .store .inner > img:nth-of-type(3){
+    top: 200px;
+    left: -150px;
+  }
+  .store .inner > img:nth-of-type(4){
+    top: 650px;
+    right: -80px;
+  }
+  .store .inner > div{
+    top: 420px;
+    right: 40px;
+  }
+
+  /* ------------FOOTER----------- */
+  .f_menu ul{
+    width: 150px;
+  }
+
+
+
+}
