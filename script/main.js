@@ -110,10 +110,18 @@ $(document).ready(function() {
 
   // ---------FOOTER------------
   // 어워즈 무한 슬라이드
-  const $ul = $('.f_award ul');
-  if (window.innerWidth <= 768) {
-    $ul.append($ul.html());
+  function setupAwardSlider() {
+    const $ul = $('.f_award ul');
+
+    if (window.innerWidth <= 768 && !$ul.hasClass('cloned')) {
+      setTimeout(() => {
+        $ul.append($ul.html()).addClass('cloned');
+      }, 10); // 약간의 시간차를 주면 렌더링 버그 방지
+    }
   }
+
+  setupAwardSlider();
+  $(window).on('resize', setupAwardSlider);
 
 
 
