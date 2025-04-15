@@ -120,30 +120,31 @@
     overflow: hidden;
     position: relative;
   }
+  
   .f_award ul {
     display: flex;
     flex-wrap: nowrap;
     gap: 12px;
     width: max-content;
-    scrollbar-width: none; /* Firefox */
-    animation: slideLeft 20s linear infinite;
-    will-change: transform;
-    backface-visibility: hidden;
-    transform: translateZ(0); /* 강제 하드웨어 가속 */
-    min-width: 200%;
   }
-  @keyframes slideLeft {
+  
+  .f_award ul.auto-slide {
+    animation: slide-left 20s linear infinite;
+    will-change: transform;
+    transform: translateZ(0); /* 하드웨어 가속 */
+  }
+  
+  @keyframes slide-left {
     0%   { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    100% { transform: translateX(-50%); } /* 복제 전제 */
   }
   
   .f_award ul::-webkit-scrollbar {
-    display: none; /* Chrome/Safari */
+    display: none;
   }
   .f_award li {
     flex: 0 0 auto;
   }
-
 
 }
 

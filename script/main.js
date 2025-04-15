@@ -109,18 +109,7 @@ $(document).ready(function() {
   $(window).resize(mobileImages);
 
   // ---------FOOTER------------
-  // 어워즈 무한 슬라이드
-  $(window).on('load', function () {
-    const $ul = $('.f_award ul');
-  
-    if (window.innerWidth <= 768 && !$ul.hasClass('cloned')) {
-      $ul.append($ul.html()).addClass('cloned');
-  
-      setTimeout(() => {
-        $ul.addClass('auto-slide');
-      }, 50);
-    }
-  });
+
 
 
 
@@ -238,3 +227,18 @@ spyEls.forEach(function(spyEl){
 // 자동으로 년 계산해서 카피라이트에 삽입
 const thisYear = document.querySelector('.this-year');
 thisYear.textContent = new Date().getFullYear();
+
+
+window.addEventListener('load', () => {
+  const ul = document.querySelector('.f_award ul');
+
+  // 모바일에서만 작동 (768px 이하)
+  if (window.innerWidth <= 768 && !ul.classList.contains('cloned')) {
+    ul.innerHTML += ul.innerHTML; // 내용 복제
+    ul.classList.add('cloned', 'auto-slide');
+  }
+});
+
+
+
+
