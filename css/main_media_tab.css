@@ -10,11 +10,14 @@
   .inner{
     width: unset;
   }
-  .season .btn, .costa .btn, .pick .btn{
+  .visual .btn, .season .btn, .costa .btn, .pick .btn{
     font-size: 22px;
     font-weight: 600;
-    width: 33vw;
-    line-height: 7vw;
+    padding: 20px 60px;
+  }
+  body.no-scroll {
+    overflow: hidden;
+    height: 100vh; /* iOS에서 튕김 방지용 */
   }
 
   /* HEADER */
@@ -64,21 +67,20 @@
     display: block;
     width: 70%;
     height: 100vh;
+    background: #111;
     top: 0;
     right: 0;
     color: #fff;
     z-index: 500;
-    overflow-y: auto;
     transform: translateX(100%);
     transition: transform 0.3s ease;
-    overflow: visible;
+    overflow-y: auto;
   }
   header .gnb_tablet.show {
     transform: translateX(0);
   }
   header .tablet_search{
     width: 100%;
-    height: 50px;
     background: #2d2926;
     display: flex;
     justify-content: center;
@@ -112,10 +114,6 @@
     text-decoration: underline;
   }
   /* 메뉴 목록 부분 */
-  header .gnb_tablet .tablet_menu{
-    background: #111;
-    height: 100%;
-  }
   header .gnb_tablet .tablet_menu li{
     font-size: 28px;
     line-height: 76px;
@@ -164,11 +162,12 @@
   header .gnb_tablet .sub__name .material-symbols-outlined {
     opacity: 0.3;
   }
-  header .gnb_tablet .btn_close{
+  header #gnb_close{
     position: fixed;
     top: 40px;
+    right: calc(70% + 30px);
     cursor: pointer;
-    left: -60px;
+    z-index: 400;
     display: none;
   }
 

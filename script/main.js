@@ -74,12 +74,14 @@ $(document).ready(function() {
   // 열기
   $('#util_bar').click(() => {
     $('.gnb_tablet, .overlay').addClass('show');
-    $('.btn_close').show();
+    $('#gnb_close').show();
+    $('body').addClass('no-scroll'); // 스크롤 막기
   });
   // 닫기
-  $('.btn_close, .overlay').click(() => {
+  $('#gnb_close, .overlay').click(() => {
     $('.gnb_tablet, .overlay').removeClass('show');
-    $('.btn_close').hide();
+    $('#gnb_close').hide();
+    $('body').removeClass('no-scroll'); // 스크롤 다시 허용
   });
 
 
@@ -106,7 +108,12 @@ $(document).ready(function() {
   mobileImages();
   $(window).resize(mobileImages);
 
-
+  // ---------FOOTER------------
+  // 어워즈 무한 슬라이드
+  const $ul = $('.f_award ul');
+  if (window.innerWidth <= 768) {
+    $ul.append($ul.html());
+  }
 
 
 
@@ -184,9 +191,7 @@ const swiper1 = new Swiper(".mySwiper1", {
 const swiper2 = new Swiper(".mySwiper2", {
   slidesPerView: 1,
   spaceBetween: 10,
-  centeredSlides: true, // 현재 슬라이드를 중앙에 배치
   loop: true,
-  loopAdditionalSlides: 1, // 다음 슬라이드 미리 생성
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -198,7 +203,17 @@ const swiper2 = new Swiper(".mySwiper2", {
   autoplay: {
     delay: 5000
   },
-  allowTouchMove: false // 마우스 드래그 방지
+  // 손가락 넘김 허용
+  allowTouchMove: true,
+
+  // 데스크탑에서는 마우스 드래그 방지
+  breakpoints: {
+    769: { // 769px 이상부터 적용
+      allowTouchMove: false,
+      centeredSlides: true, // 현재 슬라이드를 중앙에 배치
+      loopAdditionalSlides: 1 // 다음 슬라이드 미리 생성
+    }
+  }
 });
 
 // 스크롤 매직(화면에 요소가 보이면 애니메이션되게)

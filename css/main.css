@@ -269,6 +269,9 @@ header .badge{
 .util_tablet{
   display: none;
 }
+#gnb_close{
+  display: none;
+}
 /* ------------VISUAL----------- */
 .visual{
   position: relative;
@@ -676,6 +679,7 @@ header .badge{
 .f_menu ul{
   width: 220px;
   margin-top: 20px;
+  text-wrap: nowrap;
 }
 .f_menu .f_mo, .f_menu .depth2{
   display: none;
@@ -748,7 +752,7 @@ header .badge{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 0 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   text-wrap: nowrap;

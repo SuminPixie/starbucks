@@ -1,0 +1,206 @@
+/* 모바일 버전 서식(~768px) */
+@media screen and (max-width: 768px) {
+  /* COMMON */
+  .visual .btn, .season .btn, .costa .btn, .pick .btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+  }
+  header .badge {
+    display: none !important;
+  }
+  /* -----------메뉴바----------- */
+  header .tablet_search{
+    height: auto;
+    padding: 30px 0 20px 0;
+  }
+  header .tablet_search input{
+    height: 40px;
+  }
+  header .tablet_search a{
+    font-size: 18px;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+  }
+  /* 메뉴 목록 부분 */
+  header .gnb_tablet .tablet_menu li{
+    font-size: 18px;
+    line-height: 60px;
+    text-indent: 20px;
+  }
+  header .gnb_tablet .tablet_menu .material-symbols-outlined{
+    font-size: 30px;
+  }
+  header .gnb_tablet .tablet_menu .sub li{
+    font-size: 16px;
+  }
+  header .gnb_tablet .tablet_menu .sub li:not(:first-child) a{
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+  }
+  /* ------------NOTICE----------- */
+  .notice .bg_left, .notice .bg_right{
+    display: none;
+  }
+  .notice .notice_line{
+    height: auto;
+  }
+  .notice .notice_line .inner{
+    display: block;
+  }
+  .notice .notice_line .inner > div{
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .notice .notice_line .inner .inner_right{
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  /* ------------PROMOTION----------- */
+  .promotion{
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .promotion .mySwiper2{
+    width: 100%;
+    top: 0;
+  }
+  .promotion .mySwiper2 .swiper-slide {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .mySwiper2 .swiper-button-next, 
+  .mySwiper2 .swiper-button-prev{
+    display: none !important;
+  }
+  /* ------------REWARDS----------- */
+  .rewards .inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+  }
+  .rewards .inner .rewards_logo img {
+    max-width: 100px;
+  }
+  .rewards .inner .rewards_txt {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .rewards .rewards_top {
+    display: block;
+  }
+  .rewards .rewards_top h2{
+    font-size: 18px;
+  }
+  .rewards .rewards_top p {
+    font-size: 16px;
+  }
+  .rewards .rewards_bottom {
+    display: block;
+  }
+  /* ------------SEASON----------- */
+  .season .inner > div a {
+    margin-top: 20px;
+  }
+  /* ------------PICK----------- */
+  .pick .pick_img{
+    top:110px;
+  }
+  /* ------------MAGAZINE----------- */
+  .magazine .btn{
+    background: #fff;
+  }
+  /* ------------FOOTER----------- */
+  .f_award {
+    overflow: hidden;
+    position: relative;
+  }
+  .f_award ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+    width: max-content;
+    scrollbar-width: none; /* Firefox */
+    animation: slideLeft 20s linear infinite;
+  }
+  @keyframes slideLeft {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  .f_award ul::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+  .f_award li {
+    flex: 0 0 auto;
+  }
+
+
+}
+
+
+
+/* 작은 모바일 버전 서식(~375px) */
+@media screen and (max-width: 375px) {
+  /* COMMON */
+  .visual .btn, .season .btn, .costa .btn, .pick .btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+  }
+  /* 메뉴 목록 부분 */
+  header .gnb_tablet .tablet_menu li{
+    font-size: 16px;
+    line-height: 60px;
+    text-indent: 20px;
+  }
+  header .gnb_tablet .tablet_menu .material-symbols-outlined{
+    font-size: 25px;
+  }
+  header .gnb_tablet .tablet_menu .sub li{
+    font-size: 14px;
+  }
+  header .gnb_tablet .tablet_menu .sub li:not(:first-child) a{
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+  }
+  /* ------------STORE----------- */
+  .store{
+    height: 650px;
+  }
+  .store .inner > img:nth-of-type(1){
+    left: 180px;
+    width: 160px;
+  }
+  .store .inner > img:nth-of-type(2){
+    left: 40px;
+    width: 250px;
+  }
+  .store .inner > img:nth-of-type(4){
+    top: 550px;
+    right: -80px;
+  }
+  .store .inner > div{
+    top: 360px;
+    right: unset;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .store .inner > div img{
+    width: 100%;
+  }
+  /* ------------FOOTER----------- */
+  .f_menu ul{
+    width: 120px;
+  }
+
+
+
+}
