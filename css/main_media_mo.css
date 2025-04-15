@@ -127,6 +127,10 @@
     width: max-content;
     scrollbar-width: none; /* Firefox */
     animation: slideLeft 20s linear infinite;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateZ(0); /* 강제 하드웨어 가속 */
+    min-width: 200%;
   }
   @keyframes slideLeft {
     0%   { transform: translateX(0); }
