@@ -3,7 +3,7 @@
 /* ------------VISUAL----------- */
 .visual{
   position: relative;
-  background-image: url('./images/visual_bg.png');
+  background-image: url('../images/visual_bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,7 +162,7 @@
   content: "";
 }
 .mySwiper2 .swiper-button-next {
-  background: url('./images/arrow_right.png') no-repeat center;
+  background: url('../images/arrow_right.png') no-repeat center;
   width: 50px;
   height: 50px;
   border: 2px solid #333;
@@ -170,7 +170,7 @@
   right: -80px;
 }
 .mySwiper2 .swiper-button-prev {
-  background: url('./images/arrow_left.png') no-repeat center;
+  background: url('../images/arrow_left.png') no-repeat center;
   width: 50px;
   height: 50px;
   border: 2px solid #333;
@@ -260,7 +260,7 @@
 
 /* ------------SEASON----------- */
 .season{
-  background: url("./images/season_bg.png") center/cover no-repeat;
+  background: url("../images/season_bg.png") center/cover no-repeat;
   width: 100%;
   height: 578px;
   overflow: hidden;
@@ -280,7 +280,7 @@
 }
 /* ------------COSTA----------- */
 .costa{
-  background: url("./images/reserve_costa_bg.jpg") center/cover no-repeat;
+  background: url("../images/reserve_costa_bg.jpg") center/cover no-repeat;
   width: 100%;
   height: 400px;
   overflow: hidden;
@@ -302,7 +302,7 @@
 
 /* ------------PICK----------- */
 .pick{
-  background: url("./images/pick_bg.png") no-repeat center center fixed;
+  background: url("../images/pick_bg.png") no-repeat center center fixed;
   background-size: auto 87%;
   width: 100%;
   height: 800px;
@@ -329,7 +329,7 @@
 
 /* ------------MAGAZINE----------- */
 .magazine{
-  background: url("./images/magazine_bg.png") no-repeat 50% 100%;
+  background: url("../images/magazine_bg.png") no-repeat 50% 100%;
   background-size: auto 353px;
   height: 400px;
   overflow: hidden;
@@ -350,7 +350,7 @@
 
 /* ------------STORE----------- */
 .store{
-  background: url("./images/store_bg.jpg") center/cover no-repeat;
+  background: url("../images/store_bg.jpg") center/cover no-repeat;
   width: 100%;
   height: 400px;
   overflow: hidden;

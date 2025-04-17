@@ -100,7 +100,7 @@
     <section class="rewards">
       <div class="inner">
         <div class="rewards_logo">
-          <img alt="Starbucks Rewards" src="https://image.istarbucks.co.kr/common/img/main/rewards-logo.png" />
+          <img alt="Starbucks Rewards" src="./images/rewards_logo.png" />
         </div>
         <div class="rewards_txt">
           <div class="rewards_top">
