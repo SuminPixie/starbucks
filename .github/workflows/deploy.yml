@@ -24,5 +24,10 @@ jobs:
         server-dir: /www/starbucks-test/           # 카페24의 업로드 폴더 위치
         dangerous-clean-slate: true           #server-dir에 있는 파일들을 비우고 새로 업로드 함!
         exclude: |
+          **/.git*
+          **/.github*
           **/.DS_Store
+          **/node_modules
+          **/.vscode
+          **/.env
         timeout: 60000
