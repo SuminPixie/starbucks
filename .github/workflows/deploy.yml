@@ -31,4 +31,5 @@ jobs:
           **/.vscode/**
           **/.env
         timeout: 60000
+        dry-run: true
         log-level: verbose
