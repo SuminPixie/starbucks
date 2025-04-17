@@ -30,3 +30,4 @@ jobs:
           **/node_modules/**
           **/.vscode/**
           **/.env
+        timeout: 60000
