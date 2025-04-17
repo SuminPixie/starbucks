@@ -276,7 +276,7 @@
     <!-- 태블릿 util -->
     <div class="util_tablet">
       <ul>
-        <li><a href="/signin"><img alt="마이스타벅스" src="./images/icon_user.png" style="height: 30px;" /></a></li>
+        <li><a href="./signin.php"><img alt="마이스타벅스" src="./images/icon_user.png" style="height: 30px;" /></a></li>
         <li><a href="javascript:void(0)"><img alt="매장찾기" src="./images/icon_spot.png" style="height: 32px;" /></a></li>
         <li id="util_bar"><a href="javascript:void(0)"><img alt="메뉴열기" src="./images/icon_bar.png" style="height: 26px;" /></a></li>
       </ul>
