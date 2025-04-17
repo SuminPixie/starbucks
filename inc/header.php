@@ -3,7 +3,7 @@
   <div class="inner">
     <h1 class="logo">
       <a href="/">
-        <img alt="Starbucks" src="/project/starbucks/images/starbucks_logo.png" />
+        <img alt="Starbucks" src="./images/starbucks_logo.png" />
       </a>
     </h1>
     <!-- PC util -->
@@ -276,9 +276,9 @@
     <!-- 태블릿 util -->
     <div class="util_tablet">
       <ul>
-        <li><a href="/signin"><img alt="마이스타벅스" src="/project/starbucks/images/icon_user.png" style="height: 30px;" /></a></li>
-        <li><a href="javascript:void(0)"><img alt="매장찾기" src="/project/starbucks/images/icon_spot.png" style="height: 32px;" /></a></li>
-        <li id="util_bar"><a href="javascript:void(0)"><img alt="메뉴열기" src="/project/starbucks/images/icon_bar.png" style="height: 26px;" /></a></li>
+        <li><a href="/signin"><img alt="마이스타벅스" src="./images/icon_user.png" style="height: 30px;" /></a></li>
+        <li><a href="javascript:void(0)"><img alt="매장찾기" src="./images/icon_spot.png" style="height: 32px;" /></a></li>
+        <li id="util_bar"><a href="javascript:void(0)"><img alt="메뉴열기" src="./images/icon_bar.png" style="height: 26px;" /></a></li>
       </ul>
     </div>
     <!-- 태블릿 gnb -->
@@ -543,12 +543,12 @@
       </nav>
     </div>
     <div id="gnb_close">
-      <img alt="메뉴닫기" src="/project/starbucks/images/btn_gnb_close.png" />
+      <img alt="메뉴닫기" src="./images/btn_gnb_close.png" />
     </div>
   </div>
   <div class="badge">
     <a href="javascript:void(0)">
-      <img alt="뱃지" src="/project/starbucks/images/badge.png" />
+      <img alt="뱃지" src="./images/badge.png" />
     </a>
   </div>
 </header>

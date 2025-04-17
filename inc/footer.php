@@ -65,13 +65,13 @@
     <!-- 수상내역 -->
     <div class="f_award">
       <ul>
-        <li><a href="javascript:void(0);"><img alt="여성가족부 2020 대한민국 일자리대상 여성가족부장관상" src="/project/starbucks/images/footer_award_01.jpg" /></a></li>
-        <li><a href="javascript:void(0);"><img alt="행정안전부 2020 소방의 날 행정안전부장관 표창" src="/project/starbucks/images/footer_award_02.jpg" /></a></li>
-        <li><a href="javascript:void(0);"><img alt="농림축산식품부 2020 대한민국 커피산업대상 농림축산식품부 장관상" src="/project/starbucks/images/footer_award_03.jpg" /></a></li>
-        <li><a href="javascript:void(0);"><img alt="산업통상자원부 2020 대한민국 중소중견기업혁신 대상 국회산업통상자원중소벤처위원회장상" src="/project/starbucks/images/footer_award_04.jpg" /></a></li>
-        <li><a href="javascript:void(0);"><img alt="일자리위원회 2020 대한민국 일자리 유공 표창 대통령직속 일자리위원회 부위원장상" src="/project/starbucks/images/footer_award_05.jpg" /></a></li>
-        <li><a href="javascript:void(0);"><img alt="동반성장위원회 2020 사랑나눔 사회공헌대상 동반성장위원회 위원장상" src="/project/starbucks/images/footer_award_06.jpg" /></a></li>
-        <li><a href="javascript:void(0);"><img alt="소비자중심경영 CCM인증획득" src="/project/starbucks/images/footer_award_07.jpg" /></a></li>
+        <li><a href="javascript:void(0);"><img alt="여성가족부 2020 대한민국 일자리대상 여성가족부장관상" src="./images/footer_award_01.jpg" /></a></li>
+        <li><a href="javascript:void(0);"><img alt="행정안전부 2020 소방의 날 행정안전부장관 표창" src="./images/footer_award_02.jpg" /></a></li>
+        <li><a href="javascript:void(0);"><img alt="농림축산식품부 2020 대한민국 커피산업대상 농림축산식품부 장관상" src="./images/footer_award_03.jpg" /></a></li>
+        <li><a href="javascript:void(0);"><img alt="산업통상자원부 2020 대한민국 중소중견기업혁신 대상 국회산업통상자원중소벤처위원회장상" src="./images/footer_award_04.jpg" /></a></li>
+        <li><a href="javascript:void(0);"><img alt="일자리위원회 2020 대한민국 일자리 유공 표창 대통령직속 일자리위원회 부위원장상" src="./images/footer_award_05.jpg" /></a></li>
+        <li><a href="javascript:void(0);"><img alt="동반성장위원회 2020 사랑나눔 사회공헌대상 동반성장위원회 위원장상" src="./images/footer_award_06.jpg" /></a></li>
+        <li><a href="javascript:void(0);"><img alt="소비자중심경영 CCM인증획득" src="./images/footer_award_07.jpg" /></a></li>
       </ul>
     </div>
     <!-- 카피라이트 -->

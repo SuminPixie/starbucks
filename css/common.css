@@ -90,7 +90,7 @@ img {
 .f_menu {
   display: flex;
   flex-wrap: wrap;
-  background: url("./images/footer_logo.png") right 8px no-repeat;
+  background: url("../images/footer_logo.png") right 8px no-repeat;
 }
 .f_menu ul {
   width: 220px;
