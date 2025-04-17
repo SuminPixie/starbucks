@@ -13,6 +13,9 @@ a {
 img {
   display: block;
 }
+.hide{
+  display: none;
+}
 /* ---------버튼 스타일----------- */
 .btn {
   display: inline-block;
