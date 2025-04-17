@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* -----------COMMON----------- */
+body {
+  font-family: 'nbg', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+  font-size: 1em;
+  position: relative;
+  top: 120px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  display: block;
+}
+/* ---------버튼 스타일----------- */
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 15px;
+  transition: .5s;
+  text-wrap: nowrap;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  text-decoration: underline;
+}
+.btn.btn--green {
+  border-color: #006d40;
+  color: #006d40;
+}
+.btn.btn--green:hover {
+  background-color: #006d40;
+  color: #fff;
+}
+.btn.btn--green-fill {
+  background-color: #006d40;
+  border-color: #006d40;
+  color: #fff;
+}
+.btn.btn--white {
+  border-color: #fff;
+  color: #fff;
+}
+.btn.btn--white:hover {
+  background-color: #fff;
+  color: #000;
+}
+.btn.btn--violet {
+  border-color: #a32a4e;
+  color: #a32a4e;
+}
+.btn.btn--violet:hover {
+  background-color: #a32a4e;
+  color: #fff;
+}
+.btn.btn--brown {
+  border-color: #ba6e36;
+  color: #ba6e36;
+}
+.btn.btn--brown:hover {
+  background-color: #ba6e36;
+  color: #fff;
+}
+/* ------------스크린리더 외에 숨기기--------- */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+/* -----------모바일에서는 버튼 숨김------- */
+.util_tablet {
+  display: none;
+}
+#gnb_close {
+  display: none;
+}
+/* --------------FOOTER--------- */
+.f_menu {
+  display: flex;
+  flex-wrap: wrap;
+  background: url("/project/starbucks/images/footer_logo.png") right 8px no-repeat;
+}
+.f_menu ul {
+  width: 220px;
+  margin-top: 20px;
+  text-wrap: nowrap;
+}
+.f_menu .f_mo,
+.f_menu .depth2 {
+  display: none;
+}
+.f_menu a {
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+}
+.f_menu ul li:first-of-type a {
+  font-size: 14px;
+  line-height: 40px;
+}
+.f_menu ul li:first-of-type a:hover {
+  text-decoration: none;
+}
+.f_menu ul li a:hover {
+  text-decoration: underline;
+}
+/* 수상내역 */
+.f_award {
+  margin-top: 40px;
+}
+.f_award ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.f_award ul li {
+  margin-top: 10px;
+}
+/* 카피라이트 */
+.copyright {
+  color: #999;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+.copyright a {
+  border-right: 1px solid #393939;
+  color: #ccc;
+  font-size: 12px;
+  padding: 0 10px;
+  text-wrap: nowrap;
+  line-height: 24px;
+}
+.copyright a:hover {
+  text-decoration: underline;
+}
+.copyright>a:nth-of-type(1),
+.copyright>a:nth-of-type(4) {
+  color: #00b050 !important;
+}
+.copyright>a:last-of-type {
+  border-right: none;
+}
+.copyright>a.c_btn {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 2px 0 3px;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+}
+.copyright .info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-wrap: nowrap;
+}
+/* -----------배지------------ */
+header .badge{
+  position: absolute;
+  top: 140px;
+  right: 12px;
+}
+/* ------------탑버튼----------- */
+#top_btn{
+  width: 44px;
+  height: 44px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+  display: none;
+  opacity: 1;
+  text-align: center;
+  padding-top: 8px;
+  box-sizing: border-box;
+}
