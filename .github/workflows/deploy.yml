@@ -22,4 +22,4 @@ jobs:
         password: ${{ secrets.FTP_PASS }}
         local-dir: ./                         # 레포지토리 안에 보여줄 index파일 위치
         server-dir: /www/starbucks/           # 카페24의 업로드 폴더 위치
-        dangerous-clean-slate: true           #server-dir에 있는 파일들을 비우고 새로 업로드합니다.
+        dangerous-clean-slate: true           #server-dir에 있는 파일들을 비우고 새로 업로드
