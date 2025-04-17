@@ -1,39 +1,37 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/project/starbucks/inc/config.php'; ?>
-
 <!DOCTYPE html>
 <html lang="ko">
-<?php include ROOT . '/inc/head.php'; ?>
+<?php include('./inc/head.php'); ?>
 <!-- ScrollMagic -->
 <script crossorigin="anonymous" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
 <!-- Swiper -->
 <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!-- main.css -->
-<link href="/project/starbucks/css/main.css" rel="stylesheet"/>
+<link href="./css/main.css" rel="stylesheet"/>
 <!-- 반응형 -->
-<link href="/project/starbucks/css/responsive.css" rel="stylesheet"/>
+<link href="./css/responsive.css" rel="stylesheet"/>
 <!-- main.js -->
-<script defer src="/project/starbucks/script/main.js"></script>
+<script defer src="./script/main.js"></script>
 
 <body>
   <!-- 헤더 -->
-  <?php include ROOT . '/inc/header.php'; ?>
+  <?php include('./inc/header.php'); ?>
   <main>
     <!-- VISUAL -->
     <section class="visual">
       <div class="inner">
         <div class="title">
-          <img alt="BLOOMING CHOUX - PRING" src="/project/starbucks/images/visual_title.png" />
+          <img alt="BLOOMING CHOUX - PRING" src="./images/visual_title.png" />
           <a class="btn btn--green" href="javascript:void(0)">자세히 보기</a>
         </div>
         <div class="item_02">
-          <img alt="슈크림 라떼" src="/project/starbucks/images/visual_cup2.png" />
+          <img alt="슈크림 라떼" src="./images/visual_cup2.png" />
         </div>
         <div class="item_01">
-          <img alt="슈크림 말차라떼" src="/project/starbucks/images/visual_cup1.png" />
+          <img alt="슈크림 말차라떼" src="./images/visual_cup1.png" />
         </div>
         <div class="item_03">
-          <img alt="스타벅스 딸기라떼" src="/project/starbucks/images/visual_cup3.png" />
+          <img alt="스타벅스 딸기라떼" src="./images/visual_cup3.png" />
         </div>
       </div>
     </section>
@@ -76,19 +74,19 @@
         <div class="swiper mySwiper2">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img alt="프로모션 이미지" src="/project/starbucks/images/promotion_slide1.jpg" />
+              <img alt="프로모션 이미지" src="./images/promotion_slide1.jpg" />
               <a class="btn" href="javascript:void(0)">자세히 보기</a>
             </div>
             <div class="swiper-slide">
-              <img alt="프로모션 이미지" src="/project/starbucks/images/promotion_slide2.jpg" />
+              <img alt="프로모션 이미지" src="./images/promotion_slide2.jpg" />
               <a class="btn" href="javascript:void(0)">자세히 보기</a>
             </div>
             <div class="swiper-slide">
-              <img alt="프로모션 이미지" src="/project/starbucks/images/promotion_slide3.jpg" />
+              <img alt="프로모션 이미지" src="./images/promotion_slide3.jpg" />
               <a class="btn" href="javascript:void(0)">자세히 보기</a>
             </div>
             <div class="swiper-slide">
-              <img alt="프로모션 이미지" src="/project/starbucks/images/promotion_slide4.jpg" />
+              <img alt="프로모션 이미지" src="./images/promotion_slide4.jpg" />
               <a class="btn" href="javascript:void(0)">자세히 보기</a>
             </div>
           </div>
@@ -129,9 +127,9 @@
     <!-- SEASON -->
     <section class="season scroll-spy">
       <div class="inner">
-        <img alt="스프링 시즌 블렌드 이미지" class="back-to-position to-right" src="/project/starbucks/images/season_item.png" />
+        <img alt="스프링 시즌 블렌드 이미지" class="back-to-position to-right" src="./images/season_item.png" />
         <div>
-          <img alt="스프링 시즌 블렌드 250g" class="back-to-position to-left" src="/project/starbucks/images/season_txt.png" />
+          <img alt="스프링 시즌 블렌드 250g" class="back-to-position to-left" src="./images/season_txt.png" />
           <div class="back-to-position to-left">
             <a class="btn btn--violet" href="javascript:void(0)">자세히 보기</a>
           </div>
@@ -141,9 +139,9 @@
     <!-- COSTA -->
     <section class="costa">
       <div class="inner">
-        <img alt="COSTA RICA 이미지" src="/project/starbucks/images/reserve_costa_coffee.png" />
+        <img alt="COSTA RICA 이미지" src="./images/reserve_costa_coffee.png" />
         <div>
-          <img alt="COSTA RICA TICA LINDA" src="/project/starbucks/images/reserve_costa_title.png" />
+          <img alt="COSTA RICA TICA LINDA" src="./images/reserve_costa_title.png" />
           <a class="btn btn--brown" href="javascript:void(0)">자세히 보기</a>
         </div>
       </div>
@@ -152,19 +150,19 @@
     <section class="pick scroll-spy">
       <div class="inner">
         <div class="pick_txt">
-          <img alt="PICK YOUR FAVORITE" class="back-to-position to-right delay-0" src="/project/starbucks/images/pick_txt_01.png" />
-          <img alt="다양한 메뉴를 스타벅스에서 즐겨보세요." class="back-to-position to-right delay-1" src="/project/starbucks/images/pick_txt_02.png" />
+          <img alt="PICK YOUR FAVORITE" class="back-to-position to-right delay-0" src="./images/pick_txt_01.png" />
+          <img alt="다양한 메뉴를 스타벅스에서 즐겨보세요." class="back-to-position to-right delay-1" src="./images/pick_txt_02.png" />
           <a class="btn btn--white" href="javascript:void(0)">자세히 보기</a>
         </div>
-        <img alt="음료이미지" class="pick_img" src="/project/starbucks/images/pick_img.png" />
+        <img alt="음료이미지" class="pick_img" src="./images/pick_img.png" />
       </div>
     </section>
     <!-- MAGAZINE -->
     <section class="magazine">
       <div class="inner">
-        <img alt="COSTA RICA 이미지" src="/project/starbucks/images/magazine_img.png" />
+        <img alt="COSTA RICA 이미지" src="./images/magazine_img.png" />
         <div>
-          <img alt="COSTA RICA TICA LINDA" src="/project/starbucks/images/magazine_txt.png" />
+          <img alt="COSTA RICA TICA LINDA" src="./images/magazine_txt.png" />
           <a class="btn" href="javascript:void(0)">자세히 보기</a>
         </div>
       </div>
@@ -172,13 +170,13 @@
     <!-- STORE -->
     <section class="store scroll-spy">
       <div class="inner">
-        <img alt="매장 이미지" src="/project/starbucks/images/store_img_01.png" />
-        <img alt="매장 이미지" src="/project/starbucks/images/store_img_02.png" />
-        <img alt="커피 배경" src="/project/starbucks/images/store_img_03.png" />
-        <img alt="매장 배경" src="/project/starbucks/images/store_img_04.png" />
+        <img alt="매장 이미지" src="./images/store_img_01.png" />
+        <img alt="매장 이미지" src="./images/store_img_02.png" />
+        <img alt="커피 배경" src="./images/store_img_03.png" />
+        <img alt="매장 배경" src="./images/store_img_04.png" />
         <div>
-          <img alt="전국 어디에서나 스타벅스와 함께!" class="back-to-position to-left delay-0" src="/project/starbucks/images/store_txt_01.png" />
-          <img alt="나의 취향이 머무는 곳, 스타벅스 리저브 매장" class="back-to-position to-left delay-1" src="/project/starbucks/images/store_txt_02.png" />
+          <img alt="전국 어디에서나 스타벅스와 함께!" class="back-to-position to-left delay-0" src="./images/store_txt_01.png" />
+          <img alt="나의 취향이 머무는 곳, 스타벅스 리저브 매장" class="back-to-position to-left delay-1" src="./images/store_txt_02.png" />
           <div class="back-to-position to-left delay-2">
             <a class="btn" href="javascript:void(0)">매장 찾기</a>
           </div>
@@ -187,7 +185,7 @@
     </section>
   </main>
   <!-- FOOTER -->
-  <?php include ROOT . '/inc/footer.php'; ?>
+  <?php include('./inc/footer.php'); ?>
   <div id="top_btn">
     <span class="material-symbols-outlined"> arrow_upward </span>
   </div>

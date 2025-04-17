@@ -1,16 +1,14 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/project/starbucks/inc/config.php'; ?>
-
 <!DOCTYPE html>
 <html lang="ko">
-<?php include ROOT . '/inc/head.php'; ?>
+<?php include('./inc/head.php'); ?>
 <!-- signin.css -->
-<link rel="stylesheet" href="/project/starbucks/css/signin.css">
+<link rel="stylesheet" href="./css/signin.css">
 <!-- 반응형 -->
-<link href="/project/starbucks/css/responsive.css" rel="stylesheet"/>
+<link href="./css/responsive.css" rel="stylesheet"/>
 
 <body>
   <!-- 헤더 -->
-  <?php include ROOT . '/inc/header.php'; ?>
+  <?php include('./inc/header.php'); ?>
   <main>
     <section class="signin">
       <div>
@@ -48,7 +46,7 @@
     </section>
   </main>
   <!-- FOOTER -->
-  <?php include ROOT . '/inc/footer.php'; ?>
+  <?php include('./inc/footer.php'); ?>
   <div id="top_btn">
     <span class="material-symbols-outlined"> arrow_upward </span>
   </div>
