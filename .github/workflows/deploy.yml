@@ -31,4 +31,4 @@ jobs:
           **/.vscode/**
           **/.env
         timeout: 60000
-        debug: true
+        log-level: verbose
