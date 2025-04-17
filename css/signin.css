@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .signin{
-  background: url("/project/starbucks/images/login_bg.jpg") center top no-repeat fixed #0a0807;;
+  background: url("./images/login_bg.jpg") center top no-repeat fixed #0a0807;;
   background-size: cover;
   -webkit-background-size: cover;
   width: 100%;
@@ -67,7 +67,7 @@
   height: 26px;
   line-height: 26px;
   padding-left: 35px;
-  background: #fff url("/project/starbucks/images/check_off.png") 0 0 no-repeat;
+  background: #fff url("./images/check_off.png") 0 0 no-repeat;
   font-size: 16px;
   color: #3f4141;
   cursor: pointer;
@@ -75,7 +75,7 @@
   cursor: pointer;
 }
 .signin #id_save:checked + label{
-  background: #fff url("/project/starbucks/images/check_on.png") no-repeat 0 0;
+  background: #fff url("./images/check_on.png") no-repeat 0 0;
   background-size: 26px;
 }
 /* 로그인 */

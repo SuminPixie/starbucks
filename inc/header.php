@@ -9,8 +9,8 @@
     <!-- PC util -->
     <nav class="util">
       <ul>
-        <li><a href="/signin">Sign In</a></li>
-        <li><a href="/signin">My Starbucks</a></li>
+        <li><a href="./signin.php">Sign In</a></li>
+        <li><a href="./signin.php">My Starbucks</a></li>
         <li><a href="javascript:void(0)">Customer Service &amp; Ideas</a></li>
         <li><a href="javascript:void(0)">Find a Store</a></li>
       </ul>

@@ -109,8 +109,8 @@
               <p> 스타벅스 회원이세요? 나만의 리워드를 확인해보세요.<br /> 스타벅스 회원이 아니세요? 가입을 통해 리워드 혜택을 즐기세요. </p>
             </div>
             <div class="rewards_btn">
-              <a class="btn btn--green-fill" href="javascript:void(0)">회원가입</a>
-              <a class="btn btn--white" href="javascript:void(0)">로그인</a>
+              <a class="btn btn--green-fill" href="./signin.php">회원가입</a>
+              <a class="btn btn--white" href="./signin.php">로그인</a>
             </div>
           </div>
           <div class="rewards_bottom">
