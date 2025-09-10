@@ -14,7 +14,7 @@
 <script defer src="./script/main.js"></script>
 
 <body>
-  <!-- 헤더 -->
+  <!-- 헤더  -->
   <?php include('./inc/header.php'); ?>
   <main>
     <!-- VISUAL -->
