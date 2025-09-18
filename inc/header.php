@@ -2,7 +2,7 @@
 <header>
   <div class="inner">
     <h1 class="logo">
-      <a href="/">
+      <a href="./index.php">
         <img alt="Starbucks" src="./images/starbucks_logo.png" />
       </a>
     </h1>
